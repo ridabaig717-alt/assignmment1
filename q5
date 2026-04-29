@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class PowerConsumption {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double voltage, current, power;
+
+        System.out.print("Enter voltage (V): ");
+        voltage = sc.nextDouble();
+
+        System.out.print("Enter current (A): ");
+        current = sc.nextDouble();
+
+        power = voltage * current;
+
+        System.out.println("Power = " + power + " watts");
+    }
+}
