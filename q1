@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class PercentageMarks {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double obtained, maximum, percentage;
+
+        System.out.print("Enter obtained marks: ");
+        obtained = sc.nextDouble();
+
+        System.out.print("Enter maximum marks: ");
+        maximum = sc.nextDouble();
+
+        percentage = (obtained / maximum) * 100;
+
+        System.out.println("Percentage = " + percentage + "%");
+    }
+}
